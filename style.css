@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    background-color: rgb(255 255 0);
+    font-family: sans-serif;
+    border: double 10px green;
+}
+h1:hover {
+    background-color: blue;
+    border: double 10px pink;
+    transition: 5s;
+}
+ol{
+    list-style: circle;
+    background-color: red
+}
+h2 {
+    background-color:blue;
+    color:red;
+    border: dotted grey 15px;
+}
+h2:hover {
+    background-color: yellow;
+    color:blue;
+    border: solid pink 15px;
+    transition:5s;
+}
+body {
+    font-family: sans-serif;
+}
+img{
+    border: dashed 10px blue;
+    padding: 3px;
+}
+p {
+    color:red;
+    background-color: blue;
+    border: ridge 10px green;
+    box-shadow: 10px;
+}
